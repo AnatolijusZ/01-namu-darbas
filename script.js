@@ -35,5 +35,5 @@ skaicius5 = skaicius5 ^ skaicius6;
 skaicius6 = skaicius5 ^ skaicius6;
 skaicius5 = skaicius5 ^ skaicius6;
 
-var rezultatas = (skaicius5 + " ir " + skaicius6);
-rezultatas.id = 'Rezultatas';
+var rezultatas = document.getElementById("Rezultatas");
+rezultatas.innerHTML = skaicius5 + ", " + skaicius6;
